@@ -1,0 +1,45 @@
+<%-include("partials/header")-%>
+
+
+<h3>Please enter your product </h3>
+<div class="userdata">
+  <form class="" action="/product" method="post">
+
+
+    <div class="form-group row">
+      <label for="staticEmail" class="col-sm-3 col-form-label ">Product name:</label>
+      <div class="col-sm-3">
+        <input type="text"  class="form-control" id="staticEmail" value="" placeholder="">
+      </div>
+    </div><br>
+    <div class="form-group row">
+      <label for="staticEmail" class="col-sm-3 col-form-label ">Price:</label>
+      <div class="col-sm-3">
+        <input type="text"  class="form-control" id="staticEmail" placeholder="">
+      </div>
+    </div><br>
+
+    <div class="form-group row">
+      <label for="inputQuantity" class="col-sm-3 col-form-label ">Quantity:</label>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" id="inputQuantity" placeholder="">
+      </div>
+    </div><br>
+    <div class="form-group row">
+      <label for="inputActive" class="col-sm-3 col-form-label ">Active:</label>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" id="inputActive" placeholder="">
+      </div>
+    </div><br>
+    <button class = 'btn btn-md btn-dark' type="submit" name="button">Submit</button>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+<%-include("partials/footer")-%>

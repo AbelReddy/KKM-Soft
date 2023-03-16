@@ -1,0 +1,33 @@
+<%-include("partials/header")-%>
+
+
+<div class="userdata">
+  <form class="" action="/register" method="post">
+
+
+    <div class="form-group row">
+      <label for="staticEmail" class="col-sm-3 col-form-label ">Email</label>
+      <div class="col-sm-3">
+        <input required type="text" name = "customerEmail" class="form-control" id="staticEmail" value="" placeholder="email@example.com">
+      </div>
+    </div><br>
+    <div class="form-group row">
+      <label for="staticEmail" class="col-sm-3 col-form-label ">Username</label>
+      <div class="col-sm-3">
+        <input required type="text"  name="customerName" class="form-control" id="staticEmail" placeholder="name">
+      </div>
+    </div><br>
+
+    <div class="form-group row">
+      <label for="inputPassword" class="col-sm-3 col-form-label ">Password</label>
+      <div class="col-sm-3">
+        <input required type="password" class="form-control" name="customerPassword" id="inputPassword" placeholder="Password">
+      </div>
+    </div><br>
+    <button class = 'btn btn-md btn-dark' type="button " name="button">Submit</button>
+    </form>
+</div>
+
+
+
+<%-include("partials/footer")-%>

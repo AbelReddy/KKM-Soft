@@ -1,0 +1,61 @@
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav ul li a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+nav ul li a:hover{
+  color:white;
+}
+
+.header{
+  margin-right: 100px;
+  margin-top: 25px;
+}
+
+.navbar-brand{
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+
+.container{
+  height: 150px;
+}
+
+h2{
+  height:300px;
+  width:700px;
+  padding: 20px;
+  text-align: center;
+  margin-left:400px;
+  padding-top: 100px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3{
+  text-align: center;
+}
+
+.userdata{
+  font-size:1.1rem;
+  width:1000px;
+  margin-top: 80px;
+  margin-left: 500px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color:black;
+}
